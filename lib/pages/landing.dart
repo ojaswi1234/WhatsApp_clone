@@ -31,10 +31,10 @@ class Landing extends StatelessWidget {
                      
           ),
           const SizedBox(height: 20),
-          const Text("Welcome to ChatBot", style: TextStyle(color: Colors.white, fontFamily: 'EduNSWACTCursive', fontSize: 35, fontWeight: FontWeight.bold, decoration: TextDecoration.none)),
+          const Text("Welcome to ChatBot", style: TextStyle(color: Colors.white, fontFamily: 'EduNSWACTCursive', fontSize: 25, fontWeight: FontWeight.bold, decoration: TextDecoration.none)),
          const SizedBox(height: 30),
-          const Text("A place to connect with friends", style: TextStyle(color: Colors.white, fontSize: 15, decoration: TextDecoration.none)),
-          const SizedBox(height: 20),
+          const Text("A place to connect with friends", style: TextStyle(color: Colors.white, fontSize: 10, decoration: TextDecoration.none)),
+          const SizedBox(height: 30),
           ElevatedButton(
             onPressed: () {
               // Navigate to the next screen or perform an action
